@@ -1,6 +1,6 @@
-		/* Construa um algoritmo que leia (via teclado) dois números
-		 * do tipo inteiro, calcule o produto entre eles e mostre o resultado.
-		 */
+/* Construa um algoritmo que leia (via teclado) dois números
+* do tipo inteiro, calcule o produto entre eles e mostre o resultado.
+*/
 
 import java.util.Scanner;
 
@@ -23,7 +23,9 @@ public class Lista1_01 {
 		produto = primeiroNumero * segundoNumero;
 		
 		// Saída
-		System.out.println("O produto de " + primeiroNumero + " e " + segundoNumero + " é " + produto);
+		System.out.printf("O produto de %d e %d é %d.", primeiroNumero, segundoNumero, produto);
+		
+		entrada.close();
 		
 	}
 	
