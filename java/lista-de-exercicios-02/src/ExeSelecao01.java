@@ -21,6 +21,7 @@ public class ExeSelecao01 {
 		
 		// a variável valor recebe valor lido via teclado
 		valor = entrada.nextInt();
+		entrada.close();
 		
 		// testa se valor é maior que 100
 		if (valor > 100) {

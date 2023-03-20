@@ -16,6 +16,8 @@ public class ExeSelecao03 {
 		valorUm = entrada.nextInt();
 		valorDois = entrada.nextInt();
 		
+		entrada.close();
+		
 		if(valorUm > valorDois) {
 			System.out.printf("%d é o maior dos números digitados.", valorUm);
 		}

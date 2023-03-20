@@ -20,6 +20,8 @@ public class ExeSelecao02 {
 		System.out.println("Digite um número inteiro.");
 		valor = entrada.nextInt();
 		
+		entrada.close();
+		
 		// calcula o módulo do valor
 		resto = valor % 2;
 		
